@@ -25,7 +25,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 4rem;
-  height: 150px;
 }
 
 header {
@@ -104,6 +103,7 @@ main {
   align-items: center;
   margin: auto;
   padding: 150px 0 50px 0;
+  flex: 2;
 }
 
 #about_us {
@@ -192,7 +192,6 @@ footer {
   padding: 1rem;
   justify-content: space-between;
   align-items: center;  
-  height: 10vh;
 }
 
 #email {
