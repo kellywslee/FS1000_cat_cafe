@@ -176,7 +176,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 810px) and (max-width: 1279px) {
+@media only screen and (min-width: 811px) and (max-width: 1279px) {
   
   #about_us {
     margin-left: 2rem;
@@ -208,14 +208,13 @@ footer {
   justify-content: flex-end;
   padding: 1rem;
   margin-right: 6rem;
-  background-color: transparent;
+  background-color: #90F1EF;
 }
 
-#twitter-icon, #instagram-icon {
+a, #twitter-icon, #instagram-icon {
   width: 5rem;
   height: 5rem;
-  padding: 0.5rem;
-  background-color: transparent;
+  background-color: #90F1EF;
 }
 
 
@@ -237,8 +236,15 @@ footer {
     padding: 0;
     margin: 0;
     width: 100%;
-    display: flex;
     justify-content: center;
+  }
 }
+
+@media screen and (min-width: 481px) {
+
+  #instagram-icon {
+    margin-left: 1rem;
+  }
 }
+
 
